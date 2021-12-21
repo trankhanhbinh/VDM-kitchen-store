@@ -18,7 +18,7 @@
     background-color :cyan;
     opacity: 0.7;
     position: fixed;
-    top:6.4%;
+    top:6.5%;
     width: 100%;
     z-index: 10;
 }
@@ -146,6 +146,7 @@ ul li:hover {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
+    background-position: top;
 }
 .zalo {
     width: 24px;
@@ -161,6 +162,7 @@ ul li:hover {
     border: 3px solid red ;
     background-color: yellow;
     opacity: 0.8;
+    margin-top: 55px;
 }
 .about-us:hover {
     background-color: rgb(201, 136, 255);
@@ -286,6 +288,7 @@ iframe {
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
+    margin-bottom: 100px;
 }
 .offer-text {
     font-family: Arial, Helvetica, sans-serif ;
@@ -554,4 +557,20 @@ iframe {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-
+#nut-len-dau-trang {
+    font-size: 20px;  
+    border-radius: 50%;
+    position: fixed;
+    top: 88%;
+    margin-left: 1400px;
+    z-index: 10;
+    background-color: white;
+    border: 15px solid cyan ;
+    color: darkorange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#nut-len-dau-trang:hover {
+    color: red;
+    background-color: cyan;
+    transition: ease-in-out 0.5s;
+}
